@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon-32x32.png">
+
+    <title>Aula Imagens</title>
+</head>
+<body>
+    <h1> Desafio das Imagens</h1>
+
+    <br>
+
+    <h2>Vila Velha</h2>
+    <img src="vilavelha.jpeg" alt="Imagem litoral da cidade de vila velha. Bairro Praia da Costa" height="320px" width="500px">
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Outra foto de Vila Velha, com legenda</h2>
+    <img src="convento.jpeg" alt="Imagem do convento da penha na cidade de vila velha" height="320px" width="500px">
+    <figcaption>Cidade de Vila Velha. Convento da Penha</figcaption>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Outra imagem de Vila Velha, agora com alteração de tamanho</h2>
+    <picture>
+        <!-- Imagem para telas menores que 760px -->
+        <source media="(max-width: 760px)" srcset="praiapequena.jpeg" sizes="300px">
+        <!-- Imagem padrão para telas maiores -->
+        <img src="praia.jpeg" alt="Praia de vila velha" width="780" height="400px">
+    </picture>
+
+</body>
+</html>
