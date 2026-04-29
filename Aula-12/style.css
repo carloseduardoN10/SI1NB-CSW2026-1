@@ -1,0 +1,12 @@
+#spotify_titulo:hover{
+    color: green;
+}
+
+a::after{
+    content: 'Ouça pelo Spotify';
+    text-decoration: none;
+}
+
+a:active{
+    color: green;
+}
